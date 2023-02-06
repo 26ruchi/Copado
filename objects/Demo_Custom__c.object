@@ -28,7 +28,6 @@
         <formFactor>Small</formFactor>
         <type>Default</type>
     </actionOverrides>
-
     <actionOverrides>
         <actionName>Clone</actionName>
         <type>Default</type>
@@ -182,12 +181,16 @@
         <unique>false</unique>
     </fields>
     <fields>
-        <fullName>Field_three__c</fullName>
-        <defaultValue>false</defaultValue>
+        <fullName>field_number__c</fullName>
+        <defaultValue>0</defaultValue>
         <externalId>false</externalId>
-        <label>Field three</label>
+        <label>field number</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
         <trackTrending>false</trackTrending>
-        <type>Checkbox</type>
+        <type>Number</type>
+        <unique>false</unique>
     </fields>
     <validationRules>
         <fullName>DemoValidationRuleOne</fullName>
